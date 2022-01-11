@@ -34,7 +34,7 @@ jobs:
       - uses: Platane/snk@master
         id: snake-gif
          with:
-           github_user_name: ${{ github.repository_owner }}
+           github_user_name: ${{ khadka-commits}}
            # these next 2 lines generate the files inside a folder called "output".
            gif_out_path: output/github-contribution-grid-snake.gif
            svg_out_path: output/github-contribution-grid-snake.svg        
